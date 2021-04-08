@@ -7,8 +7,34 @@ font-weight: normal;
 src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
 }
 
-h1 {
+.titleDiv {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding-top: 20px;  
+  text-align: center;
+  /* background-color: #666666; */
+  background: linear-gradient(to left, rgb(27, 48, 105) 0%, rgb(73, 109, 177) 100%); /* w3c */
+}
+
+.title1 {
   font-family: 'SEGA LOGO FONT';
   font-weight: 200;
   color: #0ccac4;
+  font-size: 3rem;
+  display: inline;
+  float: none;
 }
+
+.maindiv {
+  /*margin-top: 190px;*/
+  margin-top: 150px;
+  height: 800px; 
+  text-align: center;
+  /* overflow: scroll; */
+  /* border: 1px solid black; */
+  /*height: 800px;*/
+  /* -ms-overflow-style: none; */ /* IE and Edge */
+  /* scrollbar-width: none; */ /* Firefox */
+}
+

@@ -1,0 +1,19 @@
+.aCard {
+  text-align:center; 
+  -moz-osx-font-smoothing:grayscale;
+  backface-visibility:hidden;
+  /*transform: translateZ(0);
+  transition:translateZ(0) 0.25s ease-out;*/
+  background-color:rgb(97, 211, 176);
+  border-radius:.5rem; 
+  padding:1rem; 
+  margin:.5rem; 
+  display:inline-block; 
+  border-width:.25rem; 
+  box-shadow:4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+}
+
+.aCard:hover {
+  transform:scale(1.05,1.05);
+  transition:transform 0.2s ease-out;
+}
